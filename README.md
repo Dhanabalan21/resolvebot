@@ -57,7 +57,7 @@ a scripted fake LLM and need no key.
 
 ## How it works
 
-```
+```text
 main.py           HTTP: 400/401/403 checks, session ownership, JSON contract
 app/chat.py       conversation: confirm-or-cancel step, LLM tool loop, post-checks on the reply
 app/tools.py      the five tools, their input schemas and OpenAI definitions
